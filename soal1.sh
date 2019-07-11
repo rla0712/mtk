@@ -50,12 +50,12 @@ then
     echo '++Jawaban Anda Benar++'
     echo '+++Silahkan Lanjut Ke Soal Berikutnya+++'
 sleep 1
-cd /sdcard/mtk
+cd $Home/mtk
 sh soal2.sh
 else
     echo 'Jawaban / Soal yang anda pilih salah'
     echo 'Silahkan Coba Lagi'
 sleep 2
-cd /sdcard/mtk
+cd $Home/mtk
 sh soal1.sh
 fi
