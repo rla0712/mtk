@@ -19,7 +19,9 @@ echo "\033[93;1m > Terima Kasih Telah Mencoba..."
 sleep 1
 echo ""
 echo "\033[93;1m > See You Next Time... "
-sleep 1
+sleep 1'
+clear
+toilet -f slant "Mr RLA 0712" -F gay
 exit
 }
 echo "\033[93;1m +++++++++++++++++++++++++++++++++++"
@@ -51,7 +53,7 @@ then
     echo '+++Silahkan Lanjut Ke Soal Berikutnya+++'
 sleep 1
 cd $Home/mtk
-sh soal1.sh
+sh soal2.sh
 cd
 cd $Home/install/mtk
 sh soal2.sh
