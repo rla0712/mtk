@@ -50,12 +50,18 @@ then
     echo '++Jawaban Anda Benar++'
     echo '+++Silahkan Lanjut Ke Soal Berikutnya+++'
 sleep 1
+cd $Home/mtk
+sh soal5.sh
+cd
 cd $Home/install/mtk
 sh soal5.sh
 else
     echo 'Jawaban / Soal yang anda pilih salah'
     echo 'Silahkan Coba Lagi'
 sleep 2
+cd $Home/mtk
+sh soal4.sh
+cd
 cd $Home/install/mtk
 sh soal4.sh
 fi
