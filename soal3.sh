@@ -60,7 +60,7 @@ else
     echo 'Silahkan Coba Lagi'
 sleep 2
 cd $Home/mtk
-sh soal1.sh
+sh soal3.sh
 cd
 cd $Home/install/mtk
 sh soal3.sh
