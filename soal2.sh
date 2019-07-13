@@ -49,6 +49,7 @@ then
     sleep 1
     echo '++Jawaban Anda Benar++'
     echo '+++Silahkan Lanjut Ke Soal Berikutnya+++'
+sleep 1
 cd $Home/mtk
 sh soal3.sh
 cd
