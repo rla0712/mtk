@@ -20,6 +20,8 @@ sleep 1
 echo ""
 echo "\033[93;1m > See You Next Time... "
 sleep 1
+clear
+toilet -f slant "Mr RLA 0712" -F gay
 exit
 }
 figlet -f standard "          SELAMAT" | lolcat
