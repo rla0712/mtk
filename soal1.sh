@@ -12,7 +12,7 @@ echo "\033[97;1m <==============================================>"
 # CTRL + C
 ####################################################
 trap ctrl_c INT
-ctrl_c() {
+ ctrl_c() {
 clear
 echo "\033[93;1m > Sedang Mencoba Keluar ... "
 echo "\033[93;1m > Terima Kasih Telah Mencoba..."
@@ -36,7 +36,7 @@ sleep 1
 echo ""
 echo " SILAKAN DI PILIH 1 : "
 read -p " ==> " aoc
-if [ $aoc = 1 ] || [ $aoc = 01 ];
+ if [ $aoc = 1 ] || [ $aoc = 01 ];
 then
 clear
 figlet -f slant NOMOR 1 | lolcat
@@ -44,7 +44,7 @@ echo "\033[92mSOAL"
 echo "\033[93m165 - 50 ÷ 5 + 7 × 10"
 echo -n '\033[96mJawab : '
 read a;
-fi
+ fi
 if [ $a = '85' ];
 then
     echo 'Please wait...'
@@ -66,4 +66,4 @@ sh soal1.sh
 cd
 cd $Home/install/mtk
 sh soal1.sh
-fi
+ fi
